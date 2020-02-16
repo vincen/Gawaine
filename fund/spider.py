@@ -7,10 +7,6 @@ import requests
 from requests.exceptions import RequestException
 import json
 
-# http://fund.10jqka.com.cn/datacenter/sy/
-# http://fund.ijijin.cn/data/Net/info/all_F009_desc_0_0_1_9999_0_0_0_jsonp_g.html
-# 同花顺基金的数据，取自第二个地址。
-
 
 def get_content(url):
     try:
